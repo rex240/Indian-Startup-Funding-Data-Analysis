@@ -50,6 +50,7 @@ def load_overall_analysis():
     
     fig3, ax3 = plt.subplots()
     ax3.plot(temp_df['x_axis'], temp_df['amount'])
+    plt.xticks(rotation = 90, fontsize = 5)
     st.pyplot(fig3)
 
 
